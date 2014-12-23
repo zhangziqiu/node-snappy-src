@@ -1,0 +1,30 @@
+{
+    "name": "node-snappy-src",
+    "description": "Sync Version Of Snappy Module - Nodejs bindings to Google's Snappy compression library",
+    "homepage": "https://github.com/zhangziqiu/node-snappy",
+    "main": "src/module.js",
+    "version": "0.0.10",
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "maintainers": [{
+        "name": "zhangziqiu",
+        "email": "zhangziqiu@qq.com"
+    }, {
+        "name": "wangshize",
+        "email": "wangsz1000@126.com"
+    }],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/zhangziqiu/node-snappy.git"
+    },
+    "scripts": {
+        "install": "node-gyp rebuild"
+    },
+    "dependencies": {
+        "bindings": "~1.1.1",
+        "nan": "~1.2.0",
+        "node-oojs": ">=1.1.0"
+    },
+    "gypfile": true
+}
